@@ -16,5 +16,13 @@
         font-size: 3rem;
         line-height: 70px;
     }
+    .player-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+
+    .player-card {
+        width: 100%;
+    }
 
 }

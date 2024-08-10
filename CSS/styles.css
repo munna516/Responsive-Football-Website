@@ -16,8 +16,13 @@ body {
 }
 
 /* Header Styles */
-header {
+#header {
     background-color: #2D25A0;
+}
+
+main {
+    max-width: 1160px;
+    margin: 0 auto;
 }
 
 /* Nav Styles */
@@ -102,4 +107,43 @@ header {
 .banner-img img {
     width: 100%;
     height: 100%;
+}
+
+/* Player Section */
+#Player {
+    margin-top: 100px;
+}
+
+.player-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.player-card {
+    padding: 15px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    width: 360px;
+    border-radius: 10px;
+
+}
+
+.player-card img {
+    width: 100%;
+}
+
+.player-name {
+    color: rgb(24, 25, 31);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.player-description {
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    width: 300px;
+
 }

@@ -20,4 +20,13 @@
     .banner-container {
         flex-direction: column;
     }
+
+    .player-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+
+    .player-card {
+        width: 100%;
+    }
 }
