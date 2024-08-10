@@ -31,4 +31,8 @@
         padding: 20px;
         gap: 100px;
     }
+    .footer-img img {
+        width: 95%;
+        margin: 0 auto;
+    }
 }
