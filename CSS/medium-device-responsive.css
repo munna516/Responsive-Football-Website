@@ -16,6 +16,7 @@
         font-size: 3rem;
         line-height: 70px;
     }
+
     .player-container {
         grid-template-columns: repeat(2, 1fr);
         margin: 20px;
@@ -25,4 +26,9 @@
         width: 100%;
     }
 
+    .highlight-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 100px;
+    }
 }

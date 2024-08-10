@@ -17,8 +17,13 @@
         line-height: 70px;
     }
 
-    .banner-container {
+    .banner-container,
+    .highlight-container {
         flex-direction: column;
+    }
+
+    .highlight-content {
+        width: 400px;
     }
 
     .player-container {
@@ -28,5 +33,9 @@
 
     .player-card {
         width: 100%;
+    }
+    .highlight-container{
+        padding: 20px;
+        gap: 50px;
     }
 }
