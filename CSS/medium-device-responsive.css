@@ -1,0 +1,13 @@
+@media screen and (min-width:576.1px) and (max-width:992px) {
+    .navbar {
+        padding: 40px 20px 10px 20px;
+    }
+    .hamburgar {
+        display: block;
+        color: white;
+    }
+
+    .left-items {
+        display: none;
+    }
+}
