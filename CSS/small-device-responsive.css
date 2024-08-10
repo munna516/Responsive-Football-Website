@@ -1,6 +1,6 @@
 @media screen and (max-width:576px) {
     .navbar {
-        padding: 40px 20px 10px 20px;
+        padding: 40px 20px 0px 20px;
     }
 
     .hamburgar {
@@ -10,5 +10,14 @@
 
     .left-items {
         display: none;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+        line-height: 70px;
+    }
+
+    .banner-container {
+        flex-direction: column;
     }
 }

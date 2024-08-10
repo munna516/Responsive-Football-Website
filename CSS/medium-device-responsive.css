@@ -2,6 +2,7 @@
     .navbar {
         padding: 40px 20px 10px 20px;
     }
+
     .hamburgar {
         display: block;
         color: white;
@@ -10,4 +11,10 @@
     .left-items {
         display: none;
     }
+
+    .banner-title {
+        font-size: 3rem;
+        line-height: 70px;
+    }
+
 }
